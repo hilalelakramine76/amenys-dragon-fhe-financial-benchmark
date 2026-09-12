@@ -8,3 +8,5 @@ Created and led by Hilal EL AKRAMINE, Founder & CEO of AMENYS.
 1,000,000 encrypted financial records.
 2/2 predefined due-diligence tasks.
 9m06.595s server-side encrypted computation.
+
+AMENYS DRAGON AI is an AMENYS financial analytics initiative.
