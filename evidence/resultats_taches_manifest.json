@@ -1,1 +1,24 @@
 
+{
+  "task1_revenue_recent": [
+    95501980.84797941
+  ],
+  "task1_margin_dollars_recent": [
+    30742510.052824564
+  ],
+  "task1_revenue_baseline": [
+    552031004.1630058
+  ],
+  "task1_margin_dollars_baseline": [
+    215309233.26502293
+  ],
+  "task2_avg_delay_recent_days": [
+    18.14792825001948
+  ],
+  "task2_avg_delay_baseline_days": [
+    2.0144999129980143
+  ],
+  "task2_delta_delay_days": [
+    16.133428337021467
+  ]
+}
