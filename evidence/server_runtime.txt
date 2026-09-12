@@ -1,11 +1,52 @@
 
-AMENYS DRAGON AI — SERVER RUNTIME
+AMENYS DRAGON AI — SERVER EXECUTION EVIDENCE
 
-Start UTC: 2026-09-12T16:07:44Z
-End UTC:   2026-09-12T16:16:50Z
+Benchmark:
+Encrypted Financial Due-Diligence Benchmark
 
-real: 9m06.595s
-user: 16m58.661s
-sys:  0m43.897s
+Dataset:
+1,000,000 synthetic financial records
 
-Benchmark score: 2/2
+START UTC
+2026-09-12T16:07:44Z
+
+END UTC
+2026-09-12T16:16:50Z
+
+
+GNU / SHELL TIME OUTPUT
+
+real    9m6.595s
+user    16m58.661s
+sys     0m43.897s
+
+
+PRIMARY BENCHMARK RUNTIME
+
+9 minutes 06.595 seconds
+546.595 seconds
+
+
+FINAL BENCHMARK RESULT
+
+Task 01 — Margin Quality:
+PASS
+
+Task 02 — Cash Conversion:
+PASS
+
+Final Score:
+2/2
+
+
+NOTES
+
+Server-side analytical outputs remained encrypted.
+
+The AMENYS server did not possess the client secret decryption key.
+
+Final task outputs were decrypted client-side after completion of
+the server computation.
+
+Client-side encryption and client-side decryption are not included
+in the 9m06.595s server-side computation runtime.
