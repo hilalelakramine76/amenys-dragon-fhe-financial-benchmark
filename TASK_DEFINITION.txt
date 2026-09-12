@@ -1,1 +1,117 @@
 
+AMENYS DRAGON AI — ENCRYPTED DUE DILIGENCE BENCHMARK
+PRE-REGISTERED TASK DEFINITION
+
+DATASET
+
+1,000,000 synthetic financial transaction records.
+
+Selected financial numerical values are encrypted using CKKS.
+
+The AMENYS server receives:
+- encrypted financial values
+- approved non-sensitive structural metadata
+- public CKKS evaluation context
+
+The AMENYS server does NOT receive:
+- plaintext financial values
+- client secret decryption key
+- private ground truth
+
+
+============================================================
+TASK 01 — MARGIN QUALITY
+============================================================
+
+Population:
+Product Line B
+
+Objective:
+Determine whether Product Line B exhibits a material deterioration
+in gross-margin quality during the most recent 90-day period
+relative to its historical baseline.
+
+Materiality threshold:
+A deterioration of 300 basis points or more is considered material.
+
+Required output:
+- material deterioration: YES / NO
+- direction of change
+- decision-oriented due diligence conclusion
+
+Decision framework:
+If material deterioration is detected, historical margins should
+not be annualised without further investigation and forward EBITDA
+should be stress-tested.
+
+
+============================================================
+TASK 02 — CASH CONVERSION
+============================================================
+
+Population:
+Tier-1 customers
+
+Objective:
+Determine whether payment behaviour among Tier-1 customers
+has materially deteriorated during the most recent 120-day period
+relative to its historical baseline.
+
+Materiality threshold:
+An increase of 10 days or more is considered material.
+
+Required output:
+- material deterioration: YES / NO
+- direction of change
+- decision-oriented due diligence conclusion
+
+Decision framework:
+If deterioration is detected, working capital should be normalised,
+the NWC peg reviewed and collection risk investigated before
+underwriting future cash generation.
+
+
+============================================================
+SCORING
+============================================================
+
+Maximum score: 2/2.
+
+Task 01:
+1 point for correctly identifying the predefined margin-quality signal.
+
+Task 02:
+1 point for correctly identifying the predefined cash-conversion signal.
+
+A task counts as successful when:
+- the relevant population is correctly evaluated
+- the direction of deterioration is correct
+- the predefined materiality threshold is exceeded correctly
+
+
+============================================================
+OUTPUT MODEL
+============================================================
+
+Server:
+Encrypted analytical outputs.
+
+Client:
+Final analytical outputs are decrypted using the client-held
+secret context.
+
+The AMENYS VPS does not possess the secret decryption key.
+
+
+============================================================
+RUNTIME
+============================================================
+
+Maximum benchmark window:
+48 hours.
+
+Actual encrypted server computation runtime is measured and
+reported separately.
+
+Client-side encryption time is not included in server-side
+analytical runtime.
