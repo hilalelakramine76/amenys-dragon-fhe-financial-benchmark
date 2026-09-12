@@ -1,6 +1,14 @@
 
 AMENYS DRAGON AI — BENCHMARK INTEGRITY RECORD
 
+ZENODO ARCHIVE
+
+DOI:
+10.5281/zenodo.22729292
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.22729292
+
 SHA-256 hashes are recorded below.
 
 ============================================================
@@ -63,3 +71,6 @@ SHA-256.
 
 The package's internal checksum manifest was also verified without
 reported checksum failures.
+
+
+
