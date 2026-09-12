@@ -1,4 +1,5 @@
 # AMENYS DRAGON AI — Encrypted Financial Due-Diligence Benchmark
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22729292.svg)](https://doi.org/10.5281/zenodo.22729292)
 
 **1,000,000 encrypted financial records.  
 2/2 predefined due-diligence tasks.  
