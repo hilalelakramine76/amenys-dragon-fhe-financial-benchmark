@@ -1,24 +1,46 @@
-
 {
-  "task1_revenue_recent": [
-    95501980.84797941
-  ],
-  "task1_margin_dollars_recent": [
-    30742510.052824564
-  ],
-  "task1_revenue_baseline": [
-    552031004.1630058
-  ],
-  "task1_margin_dollars_baseline": [
-    215309233.26502293
-  ],
-  "task2_avg_delay_recent_days": [
-    18.14792825001948
-  ],
-  "task2_avg_delay_baseline_days": [
-    2.0144999129980143
-  ],
-  "task2_delta_delay_days": [
-    16.133428337021467
-  ]
+  "task1_revenue_recent": {
+    "offset": 0,
+    "length": 235397
+  },
+  "task1_margin_dollars_recent": {
+    "offset": 235401,
+    "length": 235312
+  },
+  "task1_revenue_baseline": {
+    "offset": 470717,
+    "length": 235321
+  },
+  "task1_margin_dollars_baseline": {
+    "offset": 706042,
+    "length": 235393
+  },
+  "task2_avg_delay_recent_days": {
+    "offset": 941439,
+    "length": 131216
+  },
+  "task2_avg_delay_baseline_days": {
+    "offset": 1072659,
+    "length": 131216
+  },
+  "task2_delta_delay_days": {
+    "offset": 1203879,
+    "length": 131216
+  },
+  "_metadata": {
+    "task1_product_line": "B",
+    "task1_recent_window_days": 90,
+    "task1_cutoff_date": "2026-06-03",
+    "task1_n_recent": 41418,
+    "task1_n_baseline": 239103,
+    "task1_note": "margin$ et revenue$ chiffrés séparément -- division nécessite déchiffrement (voir en-tête du script)",
+    "task2_customer_tier": "T1",
+    "task2_recent_window_days": 120,
+    "task2_cutoff_date": "2026-05-04",
+    "task2_n_recent": 23648,
+    "task2_n_baseline": 96260,
+    "task2_avg_terms_recent_days": 45.0,
+    "task2_avg_terms_baseline_days": 45.0,
+    "task2_note": "task2_delta_delay_days EST la réponse finale directement en jours -- comparer au seuil de 10j après déchiffrement"
+  }
 }
