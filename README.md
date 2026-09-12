@@ -157,3 +157,15 @@ The purpose of this repository is to document a specific, reproducible encrypted
 **AMENYS — Confidential financial analytics for high-stakes decisions.**
 
 Created and led by **Hilal EL AKRAMINE**.
+
+## Archived benchmark package
+
+The encrypted benchmark package and supporting artifacts are permanently archived on Zenodo.
+
+**DOI:**  
+https://doi.org/10.5281/zenodo.22729292
+
+**Encrypted package SHA-256:**  
+`371fff3f6d47b16037ac6a71b8557aee5f3cdf9e12c11c34f767ee700a32dec3`
+
+The client secret decryption key is not included in the archive.
